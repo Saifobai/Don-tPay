@@ -1,0 +1,142 @@
+.user_edit {
+  .form_container {
+    margin: 0 auto;
+    padding: 20px;
+    width: 60%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+      rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
+      h1 {
+          color: #cc611e;
+          text-align: center;
+          font-weight: 400;
+      }
+
+    form {
+      margin-top: 40px;
+      margin-left: 5px;
+
+      .email,
+      .phone {
+        margin: 20px 0;
+        input {
+          background-color: #faf9f9;
+
+          height: 40px;
+          border: none;
+          border-bottom: #cc611e 3px solid;
+          margin: 0 5px;
+          padding: 10px;
+          color: #cc611e;
+          font-size: 1rem;
+          outline: none;
+          border-radius: 8px;
+
+          &::placeholder {
+            padding: 10px;
+            color: #9c8f1b;
+            font-size: 1rem;
+          }
+        }
+      }
+
+      .address {
+        margin: 20px 0;
+        input {
+          background-color: #faf9f9;
+
+          height: 40px;
+          border: none;
+          border-bottom: #cc611e 3px solid;
+          margin: 0 5px;
+          padding: 10px;
+          color: #cc611e;
+          font-size: 1rem;
+          outline: none;
+          border-radius: 8px;
+
+          &::placeholder {
+            padding: 10px;
+            color: #9c8f1b;
+            font-size: 1rem;
+          }
+        }
+
+        .street {
+          width: 40%;
+          margin-right: 8px;
+          margin-bottom: 10px;
+        }
+
+        .house {
+          width: 5%;
+          margin-right: 8px;
+        }
+
+        .code {
+          width: 10%;
+          margin-right: 8px;
+        }
+
+        .city {
+          width: 40%;
+          margin-right: 8px;
+          margin-bottom: 10px;
+        }
+      }
+
+      .password {
+        margin: 20px 0;
+        label {
+          display: block;
+          color: #9c8f1b;
+          margin: 20px 10px;
+          text-transform: uppercase;
+          display: inline-block;
+        }
+        input {
+          background-color: #faf9f9;
+          height: 40px;
+          border: none;
+          border-bottom: #cc611e 3px solid;
+          margin: 0 5px;
+          padding: 10px;
+          color: #cc611e;
+          font-size: 1rem;
+          outline: none;
+          border-radius: 8px;
+
+          &::placeholder {
+            padding: 10px;
+            color: #9c8f1b;
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+
+    .button {
+      text-align: center;
+
+      button {
+        font-size: 18px;
+        padding: 10px 15px;
+        background-color: #cc611e;
+        color: white;
+        border: 1px solid transparent;
+        border-radius: 8px;
+        transition: all 0.5s ease;
+        margin: 0 10px;
+
+        &:hover {
+          outline: none;
+          background-color: #fff;
+          color: #cc611e;
+          transition: all 0.5s ease;
+          cursor: pointer;
+          border: 1px solid #cc611e;
+        }
+      }
+    }
+  }
+}

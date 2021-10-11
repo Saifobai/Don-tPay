@@ -1,0 +1,17 @@
+.hero_banner {
+  position: relative;
+  margin-bottom: 40px;
+
+  img {
+    height: 400px;
+    width: 100%;
+    object-fit: fill;
+  }
+
+  h1 {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: white;
+  }
+}

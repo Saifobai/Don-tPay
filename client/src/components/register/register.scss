@@ -1,0 +1,150 @@
+.container_register {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  margin: 0 auto;
+  width: 45%;
+  padding:30px;
+  h1 {
+    text-align: center;
+    color: #8d5f2d;
+    margin-bottom: 15px;
+    font-weight: 900;
+  }
+
+  form {
+    margin-left: 10px;
+
+
+
+    .fullname,
+    .email,
+    .phone {
+
+      padding: 20px 0;
+      input {
+        background-color: #faf9f9;
+        height: 40px;
+        border: none;
+        border-bottom: #cc611e 3px solid;
+        margin: 0 5px;
+        padding: 10px;
+        color: #cc611e;
+        font-size: 1rem;
+        outline: none;
+        border-radius: 8px;
+
+        &::placeholder {
+          padding: 10px;
+          color: #9c8f1b;
+          font-size: 1rem;
+        }
+      }
+
+      .age {
+        width: 70px;
+      }
+    }
+
+    .address {
+      input {
+        height: 40px;
+        background-color: #faf9f9;
+
+        border: none;
+        border-bottom: #cc611e 3px solid;
+        margin: 0 5px;
+        padding: 10px;
+        color: #cc611e;
+        font-size: 1rem;
+        outline: none;
+        border-radius: 8px;
+
+        &::placeholder {
+          padding: 10px;
+          color: #9c8f1b;
+          font-size: 1rem;
+        }
+      }
+
+      // .street {
+
+      // }
+
+      .house {
+        width: 60px;
+      }
+
+      .code {
+        width: 100px;
+      }
+
+      .city,
+      .land {
+        width: 130px;
+      }
+    }
+
+    .upload {
+      padding: 30px 0;
+      margin-top: 10px;
+
+      label {
+        color: #9c8f1b;
+        background-color: #fff;
+        padding: 10px;
+        border: 1px solid #cc611e;
+        border-radius: 8px;
+        transition: all 0.5s ease;
+
+        &:hover {
+          background-color: #cc611e;
+          color: #fff;
+          cursor: pointer;
+        transition: all 0.5s ease;
+
+          }
+      }
+    }
+
+    .agree {
+      margin: 20px 10px;
+      color: #cc611e;
+      label {
+        margin: 0 5px;
+        cursor: pointer;
+      }
+      input[type="checkbox"] {
+        cursor: pointer;
+        width: 15px;
+        height: 15px;
+      }
+    }
+
+    .button {
+      margin-top: 20px;
+      text-align: center;
+      margin-bottom: 20px;
+
+      button {
+        font-size: 18px;
+        padding: 10px 20px;
+        background-color: #cc611e;
+        color: white;
+        transition: all 0.5s ease;
+        border: 1px solid transparent;
+        outline: none;
+        border-radius: 8px;
+
+        &:hover {
+          background-color: #fff;
+          color:#cc611e;
+          cursor: pointer;
+        transition: all 0.5s ease;
+        border: 1px solid #cc611e;
+
+
+          }
+      }
+    }
+  }
+}

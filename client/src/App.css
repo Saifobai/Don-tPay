@@ -1,0 +1,16 @@
+/* our reset */
+*, *::after, *::before {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  width: 90%;
+  margin: 0 auto ;
+  border: 2px solid #eee;
+
+  background-color: #faf9f9;
+
+}

@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.member_container {
+
+  position: relative;
+
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  height: 600px;
+
+  .basic {
+    width: 300px;
+    height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+
+    a {
+      margin-top: 30px;
+      color: black;
+      font-family: "Roboto", sans-serif;
+      font-size: 22px;
+
+      span {
+        font-size: 18px;
+        background: rgb(27, 27, 27);
+        color: white;
+        padding: 3px 8px;
+        border-radius: 4px;
+      }
+    }
+  }
+
+  .gold_member {
+    width: 300px;
+    height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+
+    a {
+      margin-top: 30px;
+      color: black;
+      font-family: "Roboto", sans-serif;
+      font-size: 22px;
+
+      span {
+        font-size: 18px;
+        background: gold;
+        color: rgb(20, 19, 19);
+        padding: 3px 8px;
+        border-radius: 4px;
+      }
+    }
+  }
+
+  .premium{
+    width: 300px;
+    height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+
+    a {
+      margin-top: 30px;
+      color: black;
+      font-family: "Roboto", sans-serif;
+      font-size: 22px;
+
+      span {
+        font-size: 18px;
+        background: orchid;
+        color: white;
+        padding: 3px 8px;
+        border-radius: 4px;
+      }
+    }
+  }
+
+  .basic_member_details{
+
+   
+    position:absolute;
+    left:25%;
+    top: 3%;
+    width:30%;
+    height:450px;
+
+    .info{
+
+        display: flex;
+        flex-direction:column;
+        justify-content:space-around;
+       
+        height:400px;
+
+        h3{
+            border-bottom: 1px solid ;
+            color: #9c8f1b;
+            font-family: "Roboto", sans-serif;
+        }
+        
+    }
+
+    
+  }
+
+  .basic_member_cost{
+
+   
+    position:absolute;
+    left:65%;
+    top: 2%;
+    width:30%;
+    height:500px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+    .info{
+
+       text-align: center;
+       
+        height:400px;
+
+        h2{
+            margin-top:40px;
+           
+            color:rgb(83, 82, 82);
+            font-family: "Roboto", sans-serif;
+        }
+        
+    }
+
+    .basic_card_payment{
+
+       
+        background-color:#cc611e ;
+       width:80%;
+       margin: 40px auto;
+       padding:25px 0;
+       border-radius:8px;
+
+       p{
+           color: white;
+           font-family: "Roboto", sans-serif;
+           font-size:20px
+       }
+    }
+
+    .btn_checkout{
+
+      
+
+        button{
+
+            font-size: 22px;
+            font-family: "Roboto", sans-serif;
+            
+            margin-top: 30px;
+            border-radius:8px;
+            width:80%;
+            padding:15px 0;
+          
+
+            background-color: #cc611e;
+            color: white;
+            transition: all 0.5s ease;
+            border: 1px solid transparent;
+            outline: none;
+            border-radius: 8px;
+    
+           
+            
+
+           a{
+             color: white;
+           }
+          
+          
+
+            
+        }
+    }
+
+    
+  }
+}

@@ -1,0 +1,60 @@
+
+// mixin styling starts right here
+@mixin measurement ($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+@mixin display ($display, $justifyContent, $alignItems) {
+    display: $display;
+    justify-content: $justifyContent;
+    align-items: $alignItems;
+}
+
+@mixin margin ($top, $left, $bottom, $right) {
+    margin-top: $top;
+    margin-left: $left;
+    margin-bottom: $bottom;
+    margin-right: $right;
+}
+
+@mixin padding ($top, $left, $bottom, $right) {
+    padding-top: $top;
+    padding-left: $left;
+    padding-bottom: $bottom;
+    padding-right: $right;
+}
+
+@mixin position ($position, $top, $left) {
+    position: $position;
+    top: $top;
+    left: $left;
+}
+
+
+// media query
+@mixin overScreen {
+    @media screen and (min-width: 1200px) {
+        @content;
+    }
+}
+
+@mixin screen {
+    @media screen and (max-width: 992px) {
+        @content;
+    }
+}
+
+
+@mixin tablet {
+    @media screen and (max-width: 768px) {
+        @content;
+    }
+}
+
+
+@mixin mobile {
+    @media screen and (max-width: 576px) {
+        @content;
+    }
+}

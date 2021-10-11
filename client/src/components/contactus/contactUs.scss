@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.container_contact {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+  height: auto;
+
+  h2,
+  p {
+    text-align: center;
+    margin: 10px 0;
+    color:#cc611e;
+  }
+
+  .two_block {
+    margin-top: 30px;
+
+    display: flex;
+
+    .info_contact {
+      flex: 35%;
+
+    
+      border-bottom: #9c8f1b 3px solid;
+      border-top: #9c8f1b 3px solid;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+      .phone {
+        margin-bottom: 30px;
+        margin-top: 30px;
+
+        font-size: 20px;
+        width: 40%;
+        margin-left: 20px;
+        display: flex;
+        align-items: center;
+
+        span {
+          margin-left: 10px;
+        }
+      }
+
+      .email {
+        margin-bottom: 30px;
+
+        font-size: 20px;
+        width: 40%;
+        margin-left: 20px;
+        display: flex;
+        align-items: center;
+
+        span {
+          margin-left: 10px;
+        }
+      }
+
+      .location {
+        font-size: 20px;
+        width: 40%;
+        margin-left: 20px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+
+        span {
+          margin-left: 10px;
+        }
+      }
+    }
+
+    .form_contact {
+      flex: 65%;
+
+      border-bottom: #9c8f1b 3px solid;
+      border-top: #9c8f1b 3px solid;
+      margin-left: 30px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+      form {
+        position: relative;
+        margin-top: 50px;
+        margin-left: 30px;
+
+        .email_sending {
+            text-align: center;
+        }
+
+        label {
+          font-size: 20px;
+          margin-top: 3px;
+          color:#cc611e;
+        }
+        input {
+            margin-top: 15px;
+          height: 35px;
+          width: 40%;
+          margin-bottom: 15px;
+          outline: none;
+          border: none;
+          border-bottom: 1px solid #cc611e;
+          border-bottom-left-radius: 5px;
+          border-bottom-right-radius: 5px;
+
+          &::placeholder {
+            padding: 10px;
+            color: #9c8f1b;
+            font-size: 1rem;
+          }
+        }
+      
+
+        .form__containerItemName {
+          display: flex;
+          margin-bottom: 3px;
+        }
+
+        .form__container__Compose {
+          margin-top: 20px;
+          text-align: center;
+
+          button {
+            font-size: 18px;
+            padding: 10px 20px;
+            background-color: #cc611e;
+            color: white;
+            transition: all 0.5s ease;
+            border: 1px solid transparent;
+            outline: none;
+            border-radius: 8px;
+         
+    
+            &:hover {
+              background-color: #fff;
+              color:#cc611e;
+              cursor: pointer;
+            transition: all 0.5s ease;
+            border: 1px solid #cc611e;
+    
+    
+              }
+          }
+        }
+
+        .container__composeMail {
+          width: 50%;
+          height: 110px;
+          margin-left: 450px;
+          position: absolute;
+          top: 6%;
+
+         
+        }
+      }
+    }
+
+    .email_sending{
+      color:#cc611e;
+    }
+  }
+}

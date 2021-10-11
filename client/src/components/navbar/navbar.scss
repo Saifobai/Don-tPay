@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Caramel&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+
+.navbar {
+
+  position: sticky;
+  top: 0;
+  z-index: 100;
+ 
+  .nav_container {
+    width: 100%;
+    height: 90px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #fff;
+    border-bottom: 3px solid #CC611E;
+  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+  
+    .logo {    
+  
+      a {
+        padding: 15px;
+        color:#333;
+        p {
+          font-size: 2rem;
+          color: #CC611E;
+          font-weight: 900;
+          text-shadow: 2px 2px 5px #cc611e55;
+        }
+      }
+    }
+  
+    .nav_links_container {
+      padding: 10px;
+      width: 50%;
+  
+      display: flex;
+      align-items: center;
+  
+      .nav_links {
+        padding: 5px 0;
+        margin-right: 30px;
+  
+      ul {
+        a {
+          font-size: 1rem;
+          padding: 10px 0;
+          margin: 0 10px;
+          color: #9c8f1b;
+          position: relative;
+          transition: all 0.5s ease;
+  
+          &::after {
+            content: "";
+            width:0%;
+            height:5px;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            
+  
+            transition: width 0.5s;
+            width: 20%;
+          }
+  
+          &:hover::after {
+            content: "";
+            height: 2px;
+            width: 100%;
+            background-color:#CC611E;
+          }
+        }
+      }
+      }
+  
+      .nav_search_container {
+        width: 35%;
+  
+        .search_input {
+          position: relative;
+          width: 100%;
+  
+          input {
+            width: 100%;
+            padding: 10px;
+            outline: none;
+            border-radius: 8px;
+            border: 1px solid #CC611E;
+            color: #CC611E;
+
+            &::placeholder {
+              color: #9c8f1b;
+              
+            }
+          }
+  
+          span {
+            position: absolute;
+            right: 0;
+            padding: 7px 5px;
+  
+          }
+        }
+      }
+    }
+  
+    .nav_login {
+      width: 30%;
+      font-size: 1rem;
+  
+      .my_account {
+        text-align: center;
+  
+        .login_link {
+  
+          a {
+            color: #9c8f1b;
+            padding: 10px;
+
+            &:hover {
+              color: #CC611E;
+            }
+          }
+        }
+      }
+    }
+  }
+}

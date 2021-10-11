@@ -1,0 +1,86 @@
+// importing mixin
+@import './mixin';
+
+
+// styling cookies banner starts right here
+.cookies-container-active {
+    @include measurement (100%, 400px);
+
+
+    background-color: #fff;
+
+    color: var(--mainBlack);
+    transition: all 400ms ease;
+    box-shadow: 0 -2px 16px #666;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 500;
+
+    display: block;
+
+    .cookies-sub-container {
+        text-align: justify;
+        margin: 80px 60px;
+
+        @include mobile {
+            margin: 40px 60px;
+        }
+
+        h1 {
+            color: var(--primaryColor);
+            font-size: 2rem;
+
+            @include mobile {
+                font-size: 1.5rem;
+            }
+        }
+
+        p {
+            font-size: 1.3rem;
+
+            @include mobile {
+                font-size: 0.9rem;
+            }
+
+            a {
+                color: var(--mainBlack);
+                font-weight: 800;
+
+                &:hover {
+                    color: var(--primaryColor);
+                }
+            }
+        }
+    }
+
+    .manage {
+        margin: 80px 60px;
+
+        @include mobile {
+            margin: 50px 60px;
+        }
+
+        a {
+            text-decoration: underline;
+            font-weight: 400;
+            margin-left: 50px;
+            font-size: 1.4rem;
+            color: var(--mainBlack);
+
+            @include mobile {
+                font-size: 1rem;
+            }
+
+            &:hover {
+                color: var(--primaryColor);
+            }
+        }
+    }
+}
+
+.cookies-container-hide {
+   display: none;
+}
